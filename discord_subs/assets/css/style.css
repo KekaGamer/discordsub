@@ -1,0 +1,88 @@
+/* assets/css/style.css (Actualizado) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+    background-color: rgba(31, 41, 55, 0.8);
+    backdrop-filter: blur(10px);
+}
+.navbar-brand {
+    font-weight: 900;
+    color: #8b5cf6;
+}
+.nav-link {
+    color: #d1d5db;
+    transition: color 0.2s, transform 0.2s;
+    font-weight: 600;
+}
+.nav-link:hover {
+    color: #a78bfa;
+    transform: translateY(-1px);
+}
+
+/* Tarjetas */
+.card {
+    background-color: #1f2937;
+    border-radius: 0.75rem;
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: 1px solid #374151;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* Botones */
+.btn-primary {
+    background-color: #7c3aed;
+    color: white;
+    font-weight: bold;
+    padding: 0.75rem 1.5rem;
+    transition: background-color 0.2s;
+}
+.btn-primary:hover {
+    background-color: #6d28d9;
+}
+.btn-secondary {
+    background-color: #4b5563;
+    color: white;
+    font-weight: bold;
+    padding: 0.75rem 1.5rem;
+    transition: background-color 0.2s;
+}
+.btn-secondary:hover {
+    background-color: #6b7280;
+}
+
+/* Modales */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    align-items: center;
+    justify-content: center;
+}
+.modal-content {
+    background-color: #1f2937;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    width: 90%;
+    max-width: 36rem;
+    animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.95); }
+    to { opacity: 1; transform: scale(1); }
+}
