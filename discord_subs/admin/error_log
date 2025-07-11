@@ -1,0 +1,100 @@
+[21-Jun-2025 00:08:15 America/Santiago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in /home4/cke110157/public_html/admin/ver_ticket.php:35
+Stack trace:
+#0 /home4/cke110157/public_html/admin/ver_ticket.php(35): PDOStatement->execute()
+#1 {main}
+  thrown in /home4/cke110157/public_html/admin/ver_ticket.php on line 35
+[21-Jun-2025 00:15:25 America/Santiago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in /home4/cke110157/public_html/admin/ver_ticket.php:35
+Stack trace:
+#0 /home4/cke110157/public_html/admin/ver_ticket.php(35): PDOStatement->execute()
+#1 {main}
+  thrown in /home4/cke110157/public_html/admin/ver_ticket.php on line 35
+[21-Jun-2025 00:19:53 America/Santiago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in /home4/cke110157/public_html/admin/ver_ticket.php:35
+Stack trace:
+#0 /home4/cke110157/public_html/admin/ver_ticket.php(35): PDOStatement->execute()
+#1 {main}
+  thrown in /home4/cke110157/public_html/admin/ver_ticket.php on line 35
+[21-Jun-2025 00:20:05 America/Santiago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in /home4/cke110157/public_html/admin/ver_ticket.php:35
+Stack trace:
+#0 /home4/cke110157/public_html/admin/ver_ticket.php(35): PDOStatement->execute()
+#1 {main}
+  thrown in /home4/cke110157/public_html/admin/ver_ticket.php on line 35
+[21-Jun-2025 00:23:21 America/Santiago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in /home4/cke110157/public_html/admin/ver_ticket.php:35
+Stack trace:
+#0 /home4/cke110157/public_html/admin/ver_ticket.php(35): PDOStatement->execute()
+#1 {main}
+  thrown in /home4/cke110157/public_html/admin/ver_ticket.php on line 35
+[21-Jun-2025 00:23:29 America/Santiago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in /home4/cke110157/public_html/admin/ver_ticket.php:35
+Stack trace:
+#0 /home4/cke110157/public_html/admin/ver_ticket.php(35): PDOStatement->execute()
+#1 {main}
+  thrown in /home4/cke110157/public_html/admin/ver_ticket.php on line 35
+[21-Jun-2025 00:23:42 America/Santiago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in /home4/cke110157/public_html/admin/ver_ticket.php:35
+Stack trace:
+#0 /home4/cke110157/public_html/admin/ver_ticket.php(35): PDOStatement->execute()
+#1 {main}
+  thrown in /home4/cke110157/public_html/admin/ver_ticket.php on line 35
+[21-Jun-2025 12:39:48 America/Santiago] PHP Fatal error:  Uncaught Error: Undefined constant "SITE_URL" in /home4/cke110157/public_html/includes/navbar.php:27
+Stack trace:
+#0 /home4/cke110157/public_html/admin/anuncios.php(11): include()
+#1 {main}
+  thrown in /home4/cke110157/public_html/includes/navbar.php on line 27
+[21-Jun-2025 12:39:53 America/Santiago] PHP Fatal error:  Uncaught Error: Undefined constant "SITE_URL" in /home4/cke110157/public_html/includes/navbar.php:27
+Stack trace:
+#0 /home4/cke110157/public_html/admin/anuncios.php(11): include()
+#1 {main}
+  thrown in /home4/cke110157/public_html/includes/navbar.php on line 27
+[21-Jun-2025 12:39:54 America/Santiago] PHP Fatal error:  Uncaught Error: Undefined constant "SITE_URL" in /home4/cke110157/public_html/includes/navbar.php:27
+Stack trace:
+#0 /home4/cke110157/public_html/admin/anuncios.php(11): include()
+#1 {main}
+  thrown in /home4/cke110157/public_html/includes/navbar.php on line 27
+[21-Jun-2025 12:39:55 America/Santiago] PHP Fatal error:  Uncaught Error: Undefined constant "SITE_URL" in /home4/cke110157/public_html/includes/navbar.php:27
+Stack trace:
+#0 /home4/cke110157/public_html/admin/anuncios.php(11): include()
+#1 {main}
+  thrown in /home4/cke110157/public_html/includes/navbar.php on line 27
+[21-Jun-2025 12:39:55 America/Santiago] PHP Fatal error:  Uncaught Error: Undefined constant "SITE_URL" in /home4/cke110157/public_html/includes/navbar.php:27
+Stack trace:
+#0 /home4/cke110157/public_html/admin/anuncios.php(11): include()
+#1 {main}
+  thrown in /home4/cke110157/public_html/includes/navbar.php on line 27
+[21-Jun-2025 12:39:56 America/Santiago] PHP Fatal error:  Uncaught Error: Undefined constant "SITE_URL" in /home4/cke110157/public_html/includes/navbar.php:27
+Stack trace:
+#0 /home4/cke110157/public_html/admin/anuncios.php(11): include()
+#1 {main}
+  thrown in /home4/cke110157/public_html/includes/navbar.php on line 27
+[21-Jun-2025 12:39:56 America/Santiago] PHP Fatal error:  Uncaught Error: Undefined constant "SITE_URL" in /home4/cke110157/public_html/includes/navbar.php:27
+Stack trace:
+#0 /home4/cke110157/public_html/admin/anuncios.php(11): include()
+#1 {main}
+  thrown in /home4/cke110157/public_html/includes/navbar.php on line 27
+[21-Jun-2025 12:39:56 America/Santiago] PHP Fatal error:  Uncaught Error: Undefined constant "SITE_URL" in /home4/cke110157/public_html/includes/navbar.php:27
+Stack trace:
+#0 /home4/cke110157/public_html/admin/anuncios.php(11): include()
+#1 {main}
+  thrown in /home4/cke110157/public_html/includes/navbar.php on line 27
+[21-Jun-2025 12:39:57 America/Santiago] PHP Fatal error:  Uncaught Error: Undefined constant "SITE_URL" in /home4/cke110157/public_html/includes/navbar.php:27
+Stack trace:
+#0 /home4/cke110157/public_html/admin/anuncios.php(11): include()
+#1 {main}
+  thrown in /home4/cke110157/public_html/includes/navbar.php on line 27
+[21-Jun-2025 12:40:05 America/Santiago] PHP Fatal error:  Uncaught Error: Undefined constant "SITE_URL" in /home4/cke110157/public_html/includes/navbar.php:27
+Stack trace:
+#0 /home4/cke110157/public_html/admin/anuncios.php(11): include()
+#1 {main}
+  thrown in /home4/cke110157/public_html/includes/navbar.php on line 27
+[21-Jun-2025 12:41:44 America/Santiago] PHP Fatal error:  Uncaught Error: Undefined constant "SITE_URL" in /home4/cke110157/public_html/includes/navbar.php:27
+Stack trace:
+#0 /home4/cke110157/public_html/admin/anuncios.php(11): include()
+#1 {main}
+  thrown in /home4/cke110157/public_html/includes/navbar.php on line 27
+[21-Jun-2025 13:43:05 America/Santiago] PHP Fatal error:  Uncaught Error: Undefined constant "SITE_URL" in /home4/cke110157/public_html/includes/navbar.php:27
+Stack trace:
+#0 /home4/cke110157/public_html/admin/anuncios.php(11): include()
+#1 {main}
+  thrown in /home4/cke110157/public_html/includes/navbar.php on line 27
+[21-Jun-2025 15:15:24 America/Santiago] PHP Fatal error:  Uncaught Error: Undefined constant "SITE_URL" in /home4/cke110157/public_html/includes/navbar.php:27
+Stack trace:
+#0 /home4/cke110157/public_html/admin/anuncios.php(11): include()
+#1 {main}
+  thrown in /home4/cke110157/public_html/includes/navbar.php on line 27

@@ -1,19 +1,18 @@
-<?php
-require_once 'includes/config.php';
+<<?php
+require_once 'includes/config.php'; // Asegura que la configuración se cargue primero
 require_once 'includes/database.php';
 
 if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
 
+// ... (resto de la lógica PHP no cambia) ...
 $token = $_GET['token'] ?? '';
 if (empty($token)) {
     $_SESSION['error'] = "Token inválido o no proporcionado.";
     header('Location: login.php');
     exit();
 }
-
-// Validar token en la base de datos
 try {
     $db = new Database();
     $conn = $db->connect();
@@ -33,16 +32,10 @@ try {
     header('Location: olvido_password.php');
     exit();
 }
+
+$pageTitle = "Restablecer Contraseña";
+include 'includes/header.php';
 ?>
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restablecer Contraseña - Discord Subs</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
 <body class="bg-gray-900 text-white">
     <div class="min-h-screen flex items-center justify-center">
         <div class="w-full max-w-md bg-gray-800 rounded-lg shadow-lg p-8">
@@ -60,12 +53,12 @@ try {
                 <input type="hidden" name="action" value="reset">
                 
                 <div>
-                    <label for="password" class="block text-sm font-medium text-gray-300">Nueva Contraseña</label>
-                    <input type="password" id="password" name="password" required class="mt-1 block w-full form-input">
+                    <label for="password" class="block text-sm font-medium text-gray-300 mb-1">Nueva Contraseña</label>
+                    <input type="password" id="password" name="password" required class="mt-1 block w-full px-4 py-2 bg-gray-700 border border-gray-600 rounded-md focus:ring-purple-500 focus:border-purple-500 text-white">
                 </div>
                 <div>
-                    <label for="confirm_password" class="block text-sm font-medium text-gray-300">Confirmar Nueva Contraseña</label>
-                    <input type="password" id="confirm_password" name="confirm_password" required class="mt-1 block w-full form-input">
+                    <label for="confirm_password" class="block text-sm font-medium text-gray-300 mb-1">Confirmar Nueva Contraseña</label>
+                    <input type="password" id="confirm_password" name="confirm_password" required class="mt-1 block w-full px-4 py-2 bg-gray-700 border border-gray-600 rounded-md focus:ring-purple-500 focus:border-purple-500 text-white">
                 </div>
                 
                 <div>

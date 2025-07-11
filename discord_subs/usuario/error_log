@@ -1,0 +1,30 @@
+[15-Jun-2025 23:01:41 America/Santiago] PHP Parse error:  syntax error, unexpected 'private_password' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) in /home4/cke110157/public_html/includes/database.php on line 8
+[15-Jun-2025 23:01:43 America/Santiago] PHP Parse error:  syntax error, unexpected 'private_password' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) in /home4/cke110157/public_html/includes/database.php on line 8
+[15-Jun-2025 23:01:48 America/Santiago] PHP Parse error:  syntax error, unexpected 'private_password' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) in /home4/cke110157/public_html/includes/database.php on line 8
+[15-Jun-2025 23:01:48 America/Santiago] PHP Parse error:  syntax error, unexpected 'private_password' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) in /home4/cke110157/public_html/includes/database.php on line 8
+[15-Jun-2025 23:01:51 America/Santiago] PHP Parse error:  syntax error, unexpected 'private_password' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) in /home4/cke110157/public_html/includes/database.php on line 8
+[15-Jun-2025 23:01:51 America/Santiago] PHP Parse error:  syntax error, unexpected 'private_password' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) in /home4/cke110157/public_html/includes/database.php on line 8
+[21-Jun-2025 16:56:11 America/Santiago] PHP Fatal error:  Uncaught Error: Call to undefined function generarCuerpoCorreoHTML() in /home4/cke110157/public_html/usuario/subir_comprobante.php:58
+Stack trace:
+#0 {main}
+  thrown in /home4/cke110157/public_html/usuario/subir_comprobante.php on line 58
+[21-Jun-2025 16:56:32 America/Santiago] PHP Fatal error:  Uncaught Error: Call to undefined function generarCuerpoCorreoHTML() in /home4/cke110157/public_html/usuario/subir_comprobante.php:58
+Stack trace:
+#0 {main}
+  thrown in /home4/cke110157/public_html/usuario/subir_comprobante.php on line 58
+[21-Jun-2025 16:56:52 America/Santiago] PHP Fatal error:  Uncaught Error: Call to undefined function generarCuerpoCorreoHTML() in /home4/cke110157/public_html/usuario/subir_comprobante.php:58
+Stack trace:
+#0 {main}
+  thrown in /home4/cke110157/public_html/usuario/subir_comprobante.php on line 58
+[06-Jul-2025 13:09:43 America/Santiago] PHP Fatal error:  Uncaught Error: Call to undefined function generarCuerpoCorreoHTML() in /home4/cke110157/public_html/usuario/subir_comprobante.php:58
+Stack trace:
+#0 {main}
+  thrown in /home4/cke110157/public_html/usuario/subir_comprobante.php on line 58
+[11-Jul-2025 19:05:17 America/Santiago] PHP Fatal error:  Uncaught Error: Call to undefined function generarCuerpoCorreoHTML() in /home4/cke110157/public_html/usuario/subir_comprobante.php:58
+Stack trace:
+#0 {main}
+  thrown in /home4/cke110157/public_html/usuario/subir_comprobante.php on line 58
+[11-Jul-2025 19:05:32 America/Santiago] PHP Fatal error:  Uncaught Error: Call to undefined function generarCuerpoCorreoHTML() in /home4/cke110157/public_html/usuario/subir_comprobante.php:58
+Stack trace:
+#0 {main}
+  thrown in /home4/cke110157/public_html/usuario/subir_comprobante.php on line 58

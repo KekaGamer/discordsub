@@ -22,16 +22,11 @@ function getEstadoBadge($estado) {
         default: return 'bg-gray-500';
     }
 }
+$pageTitle = "Historial de Suscripciones";
+include '../includes/header.php';
 ?>
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Historial de Suscripciones - Discord Subs</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="../assets/css/style.css">
-</head>
 <body class="bg-gray-900 text-white">
     <?php include '../includes/navbar.php'; ?>
     

@@ -1,17 +1,11 @@
 <?php
+require_once 'includes/config.php'; // Asegura que la configuración se cargue primero
 if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
+$pageTitle = "Recuperar Contraseña";
+include 'includes/header.php';
 ?>
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recuperar Contraseña - Discord Subs</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
 <body class="bg-gray-900 text-white">
     <div class="min-h-screen flex items-center justify-center">
         <div class="w-full max-w-md bg-gray-800 rounded-lg shadow-lg p-8">

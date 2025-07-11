@@ -21,8 +21,8 @@ if ($accion === 'marcar_leido' && $notificacion_id) {
         $stmt->execute([$notificacion_id, $usuario_id]);
         
     } catch (Exception $e) {
-        error_log("Error al marcar notificaciÃ³n como leÃ­da: " . $e->getMessage());
-        $_SESSION['error'] = "No se pudo actualizar la notificaciÃ³n.";
+        error_log("Error al marcar notificaci¨®n como leida: " . $e->getMessage());
+        $_SESSION['error'] = "No se pudo actualizar la notificaci¨®n.";
     }
 }
 

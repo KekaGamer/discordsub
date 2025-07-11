@@ -4,35 +4,35 @@ if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
 
-// --- CONFIGURACIÓN PRINCIPAL (EDITAR ESTOS VALORES) ---
+// --- CONFIGURACIÓN PRINCIPAL PARA PRODUCCIÓN ---
 
 // URL de tu sitio web (IMPORTANTE: terminar con /)
-define('SITE_URL', 'http://localhost/');
+define('SITE_URL', 'https://kekagamer.cl/');
 
-// Email del administrador para recibir notificaciones
-define('ADMIN_EMAIL', 'tu-admin-email@example.com');
+// Correos electrónicos de la aplicación
+define('ADMIN_EMAIL', 'admin@kekagamer.cl');
+define('COMPROBANTE_EMAIL', 'comprobante@kekagamer.cl'); // Correo para recibir notificaciones de pagos
 
 // Configuración de la base de datos
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'discord_subs');
-define('DB_USER', 'root');
-define('DB_PASS', '');
+define('DB_NAME', 'cke110157_discord_subs');
+define('DB_USER', 'cke110157_root');
+define('DB_PASS', '%R0dr1g03009%');
 
 // Configuración para el envío de correos (PHPMailer con SMTP)
-define('SMTP_HOST', 'smtp.example.com');
-define('SMTP_USER', 'tu-email@example.com');
-define('SMTP_PASS', 'tu-contraseña-email');
+define('SMTP_HOST', 'mail.kekagamer.cl');
+define('SMTP_USER', 'admin@kekagamer.cl'); // El correo desde el que se enviarán los emails
+define('SMTP_PASS', '%R0dr1g03009%');   // La contraseña de la cuenta de correo admin@kekagamer.cl
 define('SMTP_PORT', 587);
 define('SMTP_SECURE', 'tls');
 
-// Nombre del remitente para los correos
-define('MAIL_FROM_NAME', 'Discord Subs');
+// Nombre del remitente que verán los usuarios en los correos
+define('MAIL_FROM_NAME', 'Suscripciones KekaGamer');
 
-// --- NUEVA CONFIGURACIÓN PARA SMS ---
-// Aquí deberás poner las credenciales del servicio de SMS que contrates
-define('SMS_API_KEY', 'TU_API_KEY_DE_SMS');
-define('SMS_API_SECRET', 'TU_API_SECRET_DE_SMS');
-
+// --- CONFIGURACIÓN PARA SMS (CON placeholders para el servicio que elijas) ---
+define('SMS_API_KEY', 'TU_API_KEY_DE_TWILIO_U_OTRO');
+define('SMS_API_SECRET', 'TU_API_SECRET_DE_TWILIO_U_OTRO');
+define('SMS_TWILIO_NUMBER', 'TU_NUMERO_DE_TELEFONO_DE_TWILIO'); // Necesario si usas el ejemplo de Twilio
 
 // Precios de suscripción (CLP)
 define('PRECIO_MES', 2500);
@@ -44,8 +44,8 @@ define('NOTIFICACION_DIAS_ANTES_EXPIRAR', 7);
 
 // --- FIN DE LA CONFIGURACIÓN PRINCIPAL ---
 
-// Configuración de entorno (desarrollo o producción)
-define('ENVIRONMENT', 'development');
+// Configuración de entorno: 'production' para el sitio en vivo. Oculta errores detallados.
+define('ENVIRONMENT', 'production');
 
 if (ENVIRONMENT === 'development') {
     ini_set('display_errors', 1);

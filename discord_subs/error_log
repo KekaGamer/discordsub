@@ -1,0 +1,130 @@
+[20-Jun-2025 21:27:39 America/Santiago] PHP Fatal error:  Uncaught Error: Class "Database" not found in /home4/cke110157/public_html/includes/navbar.php:7
+Stack trace:
+#0 /home4/cke110157/public_html/comunidad.php(125): include()
+#1 {main}
+  thrown in /home4/cke110157/public_html/includes/navbar.php on line 7
+[20-Jun-2025 21:27:43 America/Santiago] PHP Fatal error:  Uncaught Error: Class "Database" not found in /home4/cke110157/public_html/includes/navbar.php:7
+Stack trace:
+#0 /home4/cke110157/public_html/comunidad.php(125): include()
+#1 {main}
+  thrown in /home4/cke110157/public_html/includes/navbar.php on line 7
+[20-Jun-2025 21:27:44 America/Santiago] PHP Fatal error:  Uncaught Error: Class "Database" not found in /home4/cke110157/public_html/includes/navbar.php:7
+Stack trace:
+#0 /home4/cke110157/public_html/comunidad.php(125): include()
+#1 {main}
+  thrown in /home4/cke110157/public_html/includes/navbar.php on line 7
+[20-Jun-2025 21:27:45 America/Santiago] PHP Fatal error:  Uncaught Error: Class "Database" not found in /home4/cke110157/public_html/includes/navbar.php:7
+Stack trace:
+#0 /home4/cke110157/public_html/comunidad.php(125): include()
+#1 {main}
+  thrown in /home4/cke110157/public_html/includes/navbar.php on line 7
+[20-Jun-2025 21:27:45 America/Santiago] PHP Fatal error:  Uncaught Error: Class "Database" not found in /home4/cke110157/public_html/includes/navbar.php:7
+Stack trace:
+#0 /home4/cke110157/public_html/comunidad.php(125): include()
+#1 {main}
+  thrown in /home4/cke110157/public_html/includes/navbar.php on line 7
+[20-Jun-2025 21:27:46 America/Santiago] PHP Fatal error:  Uncaught Error: Class "Database" not found in /home4/cke110157/public_html/includes/navbar.php:7
+Stack trace:
+#0 /home4/cke110157/public_html/comunidad.php(125): include()
+#1 {main}
+  thrown in /home4/cke110157/public_html/includes/navbar.php on line 7
+[20-Jun-2025 21:30:32 America/Santiago] PHP Fatal error:  Uncaught Error: Class "Database" not found in /home4/cke110157/public_html/includes/navbar.php:7
+Stack trace:
+#0 /home4/cke110157/public_html/comunidad.php(125): include()
+#1 {main}
+  thrown in /home4/cke110157/public_html/includes/navbar.php on line 7
+[20-Jun-2025 21:30:35 America/Santiago] PHP Fatal error:  Uncaught Error: Class "Database" not found in /home4/cke110157/public_html/includes/navbar.php:7
+Stack trace:
+#0 /home4/cke110157/public_html/comunidad.php(125): include()
+#1 {main}
+  thrown in /home4/cke110157/public_html/includes/navbar.php on line 7
+[20-Jun-2025 21:31:09 America/Santiago] PHP Fatal error:  Uncaught Error: Class "Database" not found in /home4/cke110157/public_html/includes/navbar.php:7
+Stack trace:
+#0 /home4/cke110157/public_html/comunidad.php(127): include()
+#1 {main}
+  thrown in /home4/cke110157/public_html/includes/navbar.php on line 7
+[20-Jun-2025 21:31:12 America/Santiago] PHP Fatal error:  Uncaught Error: Class "Database" not found in /home4/cke110157/public_html/includes/navbar.php:7
+Stack trace:
+#0 /home4/cke110157/public_html/comunidad.php(127): include()
+#1 {main}
+  thrown in /home4/cke110157/public_html/includes/navbar.php on line 7
+[20-Jun-2025 21:31:23 America/Santiago] PHP Fatal error:  Uncaught Error: Class "Database" not found in /home4/cke110157/public_html/includes/navbar.php:7
+Stack trace:
+#0 /home4/cke110157/public_html/comunidad.php(127): include()
+#1 {main}
+  thrown in /home4/cke110157/public_html/includes/navbar.php on line 7
+[20-Jun-2025 21:41:24 America/Santiago] PHP Fatal error:  Uncaught Error: Class "Database" not found in /home4/cke110157/public_html/includes/navbar.php:7
+Stack trace:
+#0 /home4/cke110157/public_html/comunidad.php(127): include()
+#1 {main}
+  thrown in /home4/cke110157/public_html/includes/navbar.php on line 7
+[20-Jun-2025 21:41:45 America/Santiago] PHP Fatal error:  Uncaught Error: Class "Database" not found in /home4/cke110157/public_html/includes/navbar.php:7
+Stack trace:
+#0 /home4/cke110157/public_html/comunidad.php(127): include()
+#1 {main}
+  thrown in /home4/cke110157/public_html/includes/navbar.php on line 7
+[20-Jun-2025 21:41:46 America/Santiago] PHP Fatal error:  Uncaught Error: Class "Database" not found in /home4/cke110157/public_html/includes/navbar.php:7
+Stack trace:
+#0 /home4/cke110157/public_html/comunidad.php(127): include()
+#1 {main}
+  thrown in /home4/cke110157/public_html/includes/navbar.php on line 7
+[20-Jun-2025 21:41:46 America/Santiago] PHP Fatal error:  Uncaught Error: Class "Database" not found in /home4/cke110157/public_html/includes/navbar.php:7
+Stack trace:
+#0 /home4/cke110157/public_html/comunidad.php(127): include()
+#1 {main}
+  thrown in /home4/cke110157/public_html/includes/navbar.php on line 7
+[20-Jun-2025 21:41:46 America/Santiago] PHP Fatal error:  Uncaught Error: Class "Database" not found in /home4/cke110157/public_html/includes/navbar.php:7
+Stack trace:
+#0 /home4/cke110157/public_html/comunidad.php(127): include()
+#1 {main}
+  thrown in /home4/cke110157/public_html/includes/navbar.php on line 7
+[20-Jun-2025 21:42:26 America/Santiago] PHP Fatal error:  Uncaught Error: Class "Database" not found in /home4/cke110157/public_html/includes/navbar.php:7
+Stack trace:
+#0 /home4/cke110157/public_html/comunidad.php(127): include()
+#1 {main}
+  thrown in /home4/cke110157/public_html/includes/navbar.php on line 7
+[20-Jun-2025 21:47:24 America/Santiago] PHP Fatal error:  Uncaught Error: Class "Database" not found in /home4/cke110157/public_html/includes/navbar.php:7
+Stack trace:
+#0 /home4/cke110157/public_html/comunidad.php(135): include()
+#1 {main}
+  thrown in /home4/cke110157/public_html/includes/navbar.php on line 7
+[20-Jun-2025 21:50:17 America/Santiago] PHP Fatal error:  Uncaught Error: Class "Database" not found in /home4/cke110157/public_html/includes/navbar.php:7
+Stack trace:
+#0 /home4/cke110157/public_html/comunidad.php(126): include()
+#1 {main}
+  thrown in /home4/cke110157/public_html/includes/navbar.php on line 7
+[20-Jun-2025 21:57:26 America/Santiago] PHP Fatal error:  Uncaught Error: Class "Database" not found in /home4/cke110157/public_html/includes/navbar.php:7
+Stack trace:
+#0 /home4/cke110157/public_html/comunidad.php(16): include()
+#1 {main}
+  thrown in /home4/cke110157/public_html/includes/navbar.php on line 7
+[20-Jun-2025 21:57:29 America/Santiago] PHP Fatal error:  Uncaught Error: Class "Database" not found in /home4/cke110157/public_html/includes/navbar.php:7
+Stack trace:
+#0 /home4/cke110157/public_html/comunidad.php(16): include()
+#1 {main}
+  thrown in /home4/cke110157/public_html/includes/navbar.php on line 7
+[20-Jun-2025 21:57:32 America/Santiago] PHP Fatal error:  Uncaught Error: Class "Database" not found in /home4/cke110157/public_html/includes/navbar.php:7
+Stack trace:
+#0 /home4/cke110157/public_html/comunidad.php(16): include()
+#1 {main}
+  thrown in /home4/cke110157/public_html/includes/navbar.php on line 7
+[21-Jun-2025 00:32:18 America/Santiago] PHP Fatal error:  Uncaught Error: Class "Database" not found in /home4/cke110157/public_html/includes/navbar.php:7
+Stack trace:
+#0 /home4/cke110157/public_html/comunidad.php(58): include()
+#1 {main}
+  thrown in /home4/cke110157/public_html/includes/navbar.php on line 7
+[21-Jun-2025 00:32:22 America/Santiago] PHP Fatal error:  Uncaught Error: Class "Database" not found in /home4/cke110157/public_html/includes/navbar.php:7
+Stack trace:
+#0 /home4/cke110157/public_html/comunidad.php(58): include()
+#1 {main}
+  thrown in /home4/cke110157/public_html/includes/navbar.php on line 7
+[21-Jun-2025 00:32:27 America/Santiago] PHP Fatal error:  Uncaught Error: Class "Database" not found in /home4/cke110157/public_html/includes/navbar.php:7
+Stack trace:
+#0 /home4/cke110157/public_html/comunidad.php(58): include()
+#1 {main}
+  thrown in /home4/cke110157/public_html/includes/navbar.php on line 7
+[21-Jun-2025 00:32:30 America/Santiago] PHP Fatal error:  Uncaught Error: Class "Database" not found in /home4/cke110157/public_html/includes/navbar.php:7
+Stack trace:
+#0 /home4/cke110157/public_html/comunidad.php(58): include()
+#1 {main}
+  thrown in /home4/cke110157/public_html/includes/navbar.php on line 7

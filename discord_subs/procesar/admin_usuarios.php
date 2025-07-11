@@ -71,11 +71,11 @@ try {
             break;
 
         default:
-            $_SESSION['error'] = "Acción no válida.";
+            $_SESSION['error'] = "Acci��n no valida.";
     }
 } catch (PDOException $e) {
     error_log("Error en admin_usuarios.php: " . $e->getMessage());
-    $_SESSION['error'] = "Ocurrió un error en la base de datos. Es posible que el correo o Discord ya exista.";
+    $_SESSION['error'] = "Ocurrio un error en la base de datos. Es posible que el correo o Discord ya exista.";
 } catch (Exception $e) {
     error_log("Error en admin_usuarios.php: " . $e->getMessage());
     $_SESSION['error'] = "Ocurrió un error en el servidor.";
